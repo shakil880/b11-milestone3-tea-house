@@ -3,9 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <title>Tea House</title>
 </head>
-<body>
-  
+<body class="font-Roboto">
+   <header class="max-w-360 pt-15 mx-auto">
+      <nav class="flex flex-col sm:flex-row justify-between items-center ">
+         <div class="flex flex-col justify-start">
+            <span class="text-6xl">It's good</span>
+            <span class="text-6xl">tea time at The</span>
+            <span class="text-6xl">Tea House</span>
+            <p class="text-[#777777] mt-5 mb-5 w-128">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, magnam.</p>
+            <button class="text-left flex justify-center items-center h-15 w-40 bg-orange-500 text-white rounded-2xl">
+               Explore More
+            <i class="fa fa-external-link" style="font-size:20px"></i>
+            </button>
+         </div>
+         <div class="max-w-auto">
+            <img class="w-full" src="./assets/banner.png" alt="">
+         </div>
+      </nav>
+   </header>
+
+   <main></main>
+
+   <footer></footer>
 </body>
 </html>
